@@ -1,0 +1,493 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*style for hero section */
+.herosection{
+	height: 690px;
+	width: 100%;
+	background-image: url(swiggybackground_.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	justify-content: space-between;
+	justify-items: center;
+
+
+
+}
+#nav-icon{
+  height: 40px;
+  width: 40px;
+  border-radius: 15px;
+}
+/*style for navbar*/
+.navbar{
+	display: flex;
+	/*align-items: baseline;*/
+	justify-items: center;
+	padding: 60px 0px 0px 40px;
+	gap: 10px;
+	/*border: 1px solid black;*/
+	
+
+}
+#nav-search{
+	list-style-type: none;
+	display: flex;
+	margin-left: 300px;
+	gap: 30px;
+
+}
+#nav-search li{
+	color:white;
+
+}
+#nav-search a{
+	text-decoration: none;
+}
+#nav-text{
+background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 12px;
+    font-size: 14px;
+}
+#nav-text2{
+	background: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 14px;
+
+}
+.hero-heading{
+	align-content: center;
+	justify-items: center;
+	padding: 30px 0px 30px 0px;
+	font-size: 26px;
+
+}
+
+.hero-search{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+
+}
+
+.loc-search{
+	border: 1px solid black;
+	color: orangered;
+	background-color: white;
+	border-radius: 12px;
+
+}
+.location-search{
+	background-color: white;
+	outline: none;
+	height: 30px;
+	width: 290px;
+	border: none;
+
+
+}
+.main-item-search{
+  display: flex;
+  border: 1px solid black;
+  background-color: white;
+  color: orangered;
+  align-items: center;
+  border-radius: 12px;
+
+
+}
+.item-search{
+	height: 30px;
+	width: 290px;
+	border-radius: 12px;
+	padding-left: 12px;
+	border: none;
+}
+.hero-card{
+	display: flex;
+	margin: 35px 30px 20px 150px;
+	align-content: center;
+	justify-items: center;
+	gap: 50px;
+
+}
+.food-card{
+	background-color: white;
+	color: black;
+	height: 190px;
+	width: 260px;
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+	
+}
+.item-card{
+	background-color: white;
+	color: black;
+	height: 190px;
+	width: 260px;
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+.eat-card{
+	background-color: white;
+	color: black;
+	height: 190px;
+	width: 260px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+
+}
+.hero-card img{
+	height: 110px;
+	width: 120px;
+	align-items: right;
+	margin-left: 90px;
+}
+.hero-card span{
+	border: 1px double orange;
+}
+
+/*End of Herosection*/
+#arrow{
+	border: 2px solid orangered;
+	border-radius: 50px;
+	background-color: orangered;
+	color: white;
+	padding: 1px 1px 1px 1px;
+}
+.food-category{
+	padding: 25px 20px 25px 25px;
+	height: 300px;
+margin-left: 150px;
+
+	
+}
+.food-first img{
+	height: 140px;
+	width: 160px;
+
+}
+.food-first{
+	display: flex;
+	gap: 30px;
+}
+.food-second img{
+		height: 140px;
+	width: 160px;
+}
+.food-second{
+	display: flex;
+	gap: 30px;
+}
+#food-sec{
+	display: flex;
+
+}
+#food-sec span{
+  	margin-left: 450px;
+    gap: 15px;
+
+}
+#food-sec span i{
+  border: 1px solid black;
+  border-radius: 20px;
+  color: white;
+  background-color: grey;
+  height: 18px;
+  width: 30px;
+
+}
+.main-gro{
+	padding: 20px 20px 20px 20px;
+	gap: 20PX;
+	margin-left: 150px;
+}
+.Groceries{
+	display: flex;
+	height: 200px;
+	gap: 22px;
+	font-size: 12px;
+}
+.Groceries img{
+	height: 140px;
+	width: 160px;
+
+}
+#main-gro{
+	display: flex;
+}
+#main-gro span{
+  	margin-left: 435px;
+   padding-bottom: 25PX;
+
+
+}
+#main-gro span i{
+	  border-radius: 20PX;
+   border: 1px solid black;
+   color: white;
+   background-color: grey;
+}
+.main-gro p{
+  font-size: 20px;
+}
+.restaurants-info{
+	display: flex;
+	gap: 20px;
+	height: 450px;
+	justify-content: center;
+	padding-top: 50px;
+
+}
+.rest-heading{
+	padding-left: 110px;
+}
+.hotel-1st{
+	height: 170px;
+	width: 320px;
+	background-image: url(hotelvictoria_.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 19px;
+	color: white;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+#main-hotel{
+	height: 320px;
+	width: 320px;
+	/*border: 1px solid black;*/
+	border-radius: 25px;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.hotel-heading{
+	padding-top: 145px;
+	padding-left: 10px;
+	gap: 120px;
+	color: white;
+	font-weight: 18px;
+}
+.hotel-heading h3{
+	display: inline;
+}
+.hotel-heading span{
+	display: inline;
+	padding-left: 90px;
+}
+.first-hotel-content{
+	color: #76797b;
+	font-family:  arial, "Helvetica Neue", sans-serif;;
+}
+
+.second-rest-card{
+	height: 170px;
+	width: 320px;
+	background-image: url("chicken-pic_.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 19px;
+	color: white;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+.third-rest-card{
+	height: 170px;
+	width: 320px;
+	background-image: url("rollsof card_.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 19px;
+	color: white;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+.fourth-rest-card{
+	height: 170px;
+	width: 320px;
+	background-image: url("fourthpic_.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 19px;
+	color: white;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+
+}
+#start-h{
+	display: inline;
+	margin-left: 10px;
+}
+.price{
+	padding-left: 50px;
+}
+.main{
+	height: 400px;
+	width: 350px;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.heading-t{
+	display: flex;
+	gap: 130px;
+	font-size: 14px;
+	margin-left: 10px;
+	
+}
+
+#offers{
+	border: 1px solid green;
+	background-color: #1ba672;
+	margin: 10px 0px 0px 10px;
+	border-radius: 8px;
+	height: 25px;
+	width: 280px;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+
+}
+#offers-2{
+		border: 1px solid green;
+	background-color: #c8f9e5;
+	margin: 5px 0px 0px 10px;
+	height: 25px;
+	width: 280px;
+	color: #1ba672;
+	border-radius: 8px;
+	text-align: center;
+	font-size: 16px;
+
+}
+.button{
+	height: 90px;
+	width: 120px;
+	font-size: 10px;
+	border-radius: 7px;
+	margin-left: 14px;
+	border: 0px solid black;
+	background-color: #f0f0f5;
+	font-size: 16px;
+}
+.button button{
+	font-size: 10px;
+	border-style: none;
+	background-color: #f0f0f5;
+
+}
+/*Advertisments*/
+.adver-img{
+	width: 100%;
+	height: 300px;
+}
+/*cities with food delivery*/
+.delivery-btn{
+	height: 270px;
+	width: 100%;
+	padding-top: 70px;
+
+}
+.delivery-btn h2{
+	padding-left: 180px;
+}
+
+
+.city{
+	display: flex;
+	gap: 15px;
+	margin-left: 200px;
+
+
+}
+.city button{
+	background-color: white;
+	border-radius: 12px;
+	height: 40px;
+	width: 220px;
+  margin-top: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.last-btn{
+	color: orangered;
+}
+
+/* Style for Footer section*/
+
+.main-footer-all{
+	background-color: #f0f0f5;
+	height: 500px;
+
+}
+
+.footer-main{
+	display: flex;
+	gap: 120px;
+	height: 390px;
+}
+.footer-logo{
+	height: 170px;
+	width: 20%;
+	padding-left: 110px;
+	padding-top: 60px;
+}
+.footer-logo img{
+	height: 50px;
+	border-radius: 18px;
+}
+.footer-logo span{
+	color: orangered;
+  font-size: 30px;
+
+}
+.footer-logo p{
+	color: #606369;
+}
+#about{
+	padding-top: 20px;
+	color: #606369;
+}
+#about ul li{
+	list-style-type: none;
+	padding-top: 15px;
+}
+.head-footer{
+	color: black;
+}
+.head-footer2{
+	padding-top: 80px;
+	color: black;
+}
+.footer-btn{
+	height: 25px;
+	width: 100px;
+	margin-top: 20px;
+	color: #606369	;
+}
+#social-links{
+	margin-top: 30px;
+	color: black;
+}
+#social-links i{
+	color: #3d4046;
+	padding-top: 20px;
+}
+hr{
+	margin-left: 35px;
+	width: 95%;
+}
+.app-info{
+	display: flex;
+	gap: 10px;
+	margin-top: 29px;
+	justify-content: center;
+}
+.app-info img{
+	height: 50px;
+}
