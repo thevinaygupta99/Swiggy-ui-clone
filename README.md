@@ -11,6 +11,10 @@ The project is made for **learning and practice purposes** to understand front-e
 <img width="1880" height="856" alt="Screenshot 2026-01-07 104524" src="https://github.com/user-attachments/assets/5782a64b-f744-44ba-9200-191b93f23197" />
 
 
+## Food Category & Instamart 
+
+
+
 ## 🚀 Features
 
 - Swiggy-inspired UI design
